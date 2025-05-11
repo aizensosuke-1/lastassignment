@@ -1,0 +1,127 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify </title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: white;
+          }
+        .navbar{
+            background-color: #121212;
+            display:flex;
+            top:0;
+            gap: 40px;
+            justify-content: center;
+            padding: 15px 0;
+            top: 0;
+        }
+        .navbar a{
+            color:white;
+            text-decoration: none;
+            font-size: 18px;
+            padding: 8px 15px;
+        }
+        .navbar a:hover{
+            background-color:#121212;
+            color: lightskyblue;
+            border-radius: 6px;
+        }
+        .cards{
+            margin: 20px;
+            display: flex;
+            gap:20px;
+        }
+        .card{
+            background-color: #181818;
+            padding: 15px;
+            border-radius: 10px;
+            width: 140px;
+        }
+        .card img{
+            width: 100%;
+            border-radius: 8px;
+            border:2px solid grey;
+            height: 140px;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+        .card p {
+            font-size: 14px;
+            color: rgb(173, 172, 169);
+            overflow-wrap: break-word;
+          }
+          
+        .image:hover {
+            transform: scale(1.05);
+        }
+        .image img{
+                width: 150px;         
+                height: 150px;
+                border-radius: 50%;
+                object-fit: cover; 
+                border: 2px solid #fff; 
+              } 
+        .image p{
+            font-size: 14px;
+            color: rgb(173, 172, 169);
+        }    
+        #hello{
+            text-align: center;
+        }  
+        audio{
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div class="navbar">
+        <h3>Audio player </h3>
+      </div>
+      <main>
+        <div class="main">
+            <div class="section" id="trending">
+                <h2 style="margin-left: 20px;">Trending Songs</h2>
+                <div class="cards">
+                    <div class="card">
+                        <img src="maula mere.jpg">
+                        <h4 >Maula mere maula </h4>
+                        <audio src="Maula Mere Maula  Anwar (2007)  Siddharth Koirala  Nauheed Cyrusi Bollywood Romantic Song.mp3" controls></audio>
+                    </div>
+                    <div class="card">
+                        <img src="barso re.jpg">
+                        <h4>Barso re</h4>
+                         <audio src="A.R. Rahman - Barso Re Best VideoGuruAishwarya RaiShreya GhoshalUday Mazumdar.mp3" controls></audio>
+                    </div>
+                    <div class="card">
+                        <img src="lapthokhro.jpg">
+                        <h4>lapthokhro</h4>
+                       <audio src="Lapthokhro.mp3" controls></audio>
+                    </div>
+                    <div class="card">
+                        <img src="meikhu.jpg">
+                        <h4>Meikhu</h4>
+                        <audio src="MEIKHU (Official Audio) A 'LIFE IN LIMBO' original.mp3" controls></audio>
+                    </div>
+                 
+                </div>
+            </div>        
+    </div>
+    <br>
+    <div id="hello">
+        
+            <p>It's me, Kevin Irungbam<br>BCA 4th Semester, NIELIT,Imphal</p>
+    
+    </div>
+    
+    
+      
+</body>
+</html>
